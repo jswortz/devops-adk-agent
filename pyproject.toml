@@ -1,0 +1,14 @@
+[project]
+requires-python = ">=3.12,<4.0"
+license = "Apache-2.0"
+name = "devops-adk-agent"
+version = "0.1.0"
+description = "A devops agent showing mcp connections with google's agent development kit"
+authors = [{ name = "Jeremy Wortz", email = "jwortz@google.com" }]
+readme = "README.md"
+dependencies = ["google-adk (>=1.12.0,<2.0.0)"]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
