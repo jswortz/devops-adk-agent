@@ -11,8 +11,6 @@ from google.adk.tools.base_tool import BaseTool
 from typing import Dict, Any
 import json
 
-# {"account_id":"712020:554064b3-8293-4bab-8ea6-b9bea9fade8b","email":"admin@jwortz.altostrat.com","name":"Jeremy Wortz","picture":"https://secure.gravatar.com/avatar/0707a1b0c2a6a5249a27ce1189cbb4d3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJW-4.png","account_status":"active","characteristics":{"not_mentionable":false},"last_updated":"2025-02-28T00:07:01.542Z","nickname":"Jeremy Wortz","locale":"en-US","extended_profile":{"phone_numbers":[],"team_type":"Software Development"},"account_type":"atlassian","email_verified":true}"
-
 
 def get_atlassian_info_callback(
     tool: BaseTool, args: Dict[str, Any], tool_context: ToolContext, tool_response: Dict

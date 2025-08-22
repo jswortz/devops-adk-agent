@@ -37,6 +37,7 @@ getJiraProjectIssueTypesMetadata: Get a page of issue type metadata for a specif
 atlassianUserInfo: Get current user info from Atlassian
 getAccessibleAtlassianResources: Get cloudid to construct API calls to Atlassian REST APIs
 """
+
 JIRA_MCP_INSTRUCTIONS = """
 Example Workflows
 Once connected, you can perform a variety of useful tasks from within your supported client.
