@@ -12,6 +12,22 @@ This agent leverages the Atlassian MCP server to provide seamless integration wi
 - Node.js installed on your system
 - An Atlassian Cloud account
 - Access to the Atlassian services you want to integrate with
+- ## Prerequisites
+
+- **Google Cloud Project:** You need a Google Cloud project with the AI Platform API enabled.
+- **Authentication:** You need to be authenticated with Google Cloud.
+  ```bash
+  gcloud auth login
+  gcloud auth application-default login
+  ```
+- **Environment Variables:** The following environment variables need to be set:
+    - In the project root, create a `.env` file.
+    - Use this format:
+      ```bash
+      GOOGLE_GENAI_USE_VERTEXAI=1
+      GOOGLE_CLOUD_PROJECT=YOUR_PROJECT_ID
+      GOOGLE_CLOUD_LOCATION=REGION
+      ```
 
 ## Setup Steps
 
